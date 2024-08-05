@@ -4,11 +4,11 @@
 Vue.component("simple_header_component_1722881571", {
     template: `
     <header id="header-section" class="w-full">
-        <nav id="nav-bar" class="bg-gradient-to-r from-pink-500 to-purple-600 bg-opacity-50 backdrop-filter backdrop-blur-lg border-gray-200 py-2.5 dark:bg-gray-900 shadow-lg">
-            <div id="nav-container" class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
+        <nav id="nav-bar" class="bg-gradient-to-r from-pink-500 to-purple-600 bg-opacity-50 backdrop-filter backdrop-blur-lg border-gray-200 py-4 dark:bg-gray-900 shadow-lg rounded-lg">
+            <div id="nav-container" class="flex flex-wrap items-center justify-between max-w-screen-xl px-6 mx-auto">
                 <a id="logo-link" href="#" class="flex items-center">
-                    <img id="logo-image" src="./images/logo.svg" class="h-6 mr-3 sm:h-9" alt="Landwind Logo" />
-                    <span id="app-name" class="self-center text-xl font-semibold whitespace-nowrap text-white">EthScan: Real-Time Ethereum Transaction Finder</span>
+                    <img id="logo-image" src="./images/logo.svg" class="h-8 mr-4 sm:h-10" alt="Landwind Logo" />
+                    <span id="app-name" class="self-center text-2xl font-bold whitespace-nowrap text-white">EthScan: Real-Time Ethereum Transaction Finder</span>
                 </a>
                 <div id="menu-toggle-button" class="flex items-center lg:order-2">
                     <button id="collapse-button" data-collapse-toggle="mobile-menu-2" type="button" class="inline-flex items-center p-2 ml-1 text-sm text-white rounded-lg lg:hidden hover:bg-pink-400 focus:outline-none focus:ring-2 focus:ring-pink-300 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu-2" aria-expanded="false">
@@ -27,7 +27,7 @@ Vue.component("simple_header_component_1722881571", {
                         <li id="nav-item-1"><a href="#" class="block py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:bg-pink-500 lg:hover:bg-transparent lg:border-0 lg:hover:text-pink-300 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 transition duration-300">Customizable alert settings</a></li>
                         <li id="nav-item-2"><a href="#" class="block py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:bg-pink-500 lg:hover:bg-transparent lg:border-0 lg:hover:text-pink-300 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 transition duration-300">Detailed transaction information</a></li>
                         <li id="nav-item-3"><a href="#" class="block py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:bg-pink-500 lg:hover:bg-transparent lg:border-0 lg:hover:text-pink-300 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 transition duration-300">User-friendly dashboard interface</a></li>
-                        <li><button class="px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition duration-300">Hello World</button></li>
+                        <li><button class="px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition duration-300 shadow-lg">Hello World</button></li>
                     </ul>
                 </div>
             </div>
